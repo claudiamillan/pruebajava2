@@ -20,7 +20,7 @@ public static void main(String[] args)
  int numero;
  
  numero =Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
- if (numero==220)
+ if (numero==320)
  {
  JOptionPane.showMessageDialog(null,"clave correcta");  
   }
@@ -31,9 +31,9 @@ public static void main(String[] args)
  JOptionPane.showMessageDialog(null,"clave incorrecta");
  numero =Integer.parseInt(JOptionPane.showInputDialog("Ingrese tercer numero"));
 }
- while(numero==220)
+ while(numero==320)
 {
-JOptionPane.showMessageDialog(null,"clave bloqueada, comuniquese con soporte tecnico");
+JOptionPane.showMessageDialog(null,"clave bloqueada, comuníquese con soporte técnico");
 }   
  }
 }
